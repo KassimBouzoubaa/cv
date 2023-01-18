@@ -9,7 +9,11 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  animation: title-animation 2s ease-in-out;
 }
+@keyframes title-animation {
+    0% {
+      transform: translateY(-50px); }}
 img {
   max-width: 100%;
   height: auto;
@@ -83,10 +87,7 @@ ul {
 .button1 {
   margin-top: 20px;
 }
-#about img {
-    height: 500px;
-    width: 500px;
-}
+
 
 /* SKILLS */
 #skills .heading h2 {
